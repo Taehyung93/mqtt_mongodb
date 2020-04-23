@@ -1,12 +1,12 @@
 # 프로젝트 개요
 
 ```
-해당 프로젝트의 최종 목표는 홈 IOT 플랫폼을 구성하는 것이다.
+해당 프로젝트의 최종 목표는 홈 IOT 플랫폼을 구성하는 것 입니다.
 그러기 위해서 IOT 장비에서 MQTT 로 데이터를 Host PC 의 MongoDB 로 보내고,
-해당 데이터를 필요에 맞게 가공하여 서비스를 집에 있는 월패드(Android Tablet) 를 통해 제공해야된다.
+해당 데이터를 필요에 맞게 가공하여 서비스를 집에 있는 월패드(Android Tablet)를 통해 제공해야 됩니다.
 
 단계별로 진행되며, 첫단계인 이 Repository 에서는 해당 서비스의 기본적인 이해를 위해 
-Anroid Phone -> MQTT -> HostPC -> MongoDB 형태로 구축해본다.
+Anroid Phone -> MQTT -> HostPC -> MongoDB 형태로 구축해보겠습니다.
 ```
 
 ## 1. MQTT 를 Host PC 에 세팅 (ubuntu)
@@ -48,7 +48,7 @@ mqttAndroidClient = new MqttAndroidClient(this,  "tcp://" + "192.168.20.184" + "
 에서 "192.168.20.184" + ":1883" 은 ip 주소와 port 번호로 사용하시는 본인의 ip 와 port 에 맞게 설정하시면 됩니다.
 Ubuntu 의 경우 ifconfig 를 하면 ip 주소를 확인할 수 있습니다.
 ```
-![Alt Text](https://github.com/Taehyung93/mqtt_mongodb/blob/master/Mqtt_android.jpg)
+<img src="https://github.com/Taehyung93/mqtt_mongodb/blob/master/Mqtt_android.jpg" width="30%" height="30%" title="anroid_mqtt" alt="android_mqtt"></img>
 
 ## 3. Mongodb 설치 (ubuntu)
 
@@ -112,9 +112,7 @@ $ db.test_table.find()
 
 ```
 
-
-
-## 5. 기타 
+## 6. 기타 
 
 ```
 Mosquitto publish 방법
