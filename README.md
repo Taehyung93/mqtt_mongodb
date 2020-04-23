@@ -118,7 +118,7 @@ $ db.test_table.find()
 Mosquitto publish 방법
 $ mosquitto_pub -h 192.168.20.184 -t test -m "Hello Mosquitto !"
 
-subscribe.py -> multiple msg 를 전송할 수 있다.
+publish.py -> multiple msg 를 전송할 수 있다.
 
 Mongodb 시각화 무료 어플리케이션(오픈소스): Robo 3T 
 설치방법 링크: https://tinyurl.com/yasbqev5
